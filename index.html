@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cytellix Assessment</title>
+</head>
+
+<body>
+
+    <h1>Authentication Flow</h1>
+    
+    <div style="border-style: solid">
+        <form action="/signin" method="post">
+            <h2> Log in</h2>
+            <input placeholder="email" name="logemail" required=""><br>
+            <input placeholder="password" type="password" name="logpassword" required="">
+            <br><br>
+            <input id="logIn-btn" value="Log In" type="submit">
+        </form>
+    </div>
+
+    <div style="border-style: solid">
+        <form action="/register" method="post">
+            <h2>Registration</h2>
+            <input placeholder="username" name="username" required="">
+            <input placeholder="email" name="email" required=""><br>
+            <input type="password" name="password" placeholder="password" required="">
+            <input type="password" name="passwordConf" placeholder="confirmed password" required="">
+            <br><br>
+            <input id="registration-btn" value="Registration" type="submit">
+        </form>
+    </div>
+    
+</body>
+
+</html>
